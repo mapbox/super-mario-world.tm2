@@ -1,0 +1,42 @@
+_prefs: 
+  mapid: duncangraham.552f58b0
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - 38.3862
+  - 8.3637
+  - 7
+description: ''
+format: "png8:m=h"
+interactivity_layer: ''
+layers: 
+  - ne_110m_ocean
+  - ne_110m_land
+  - ne_10m_geography_regions_polys
+  - ne_110m_lakes
+  - road
+  - mpoi
+  - place_label
+  - hillshade
+  - landcover
+  - marine_label
+  - country_label
+maxzoom: 22
+minzoom: 0
+name: ''
+source: "mapbox:///duncangraham.f38239b3,duncangraham.54c72d71,duncangraham.9cb2f4cc,duncangraham.83c4f511,duncangraham.d1be701a,mapbox.mapbox-streets-v5,mapbox.mapbox-terrain-v1,duncangraham.b12adadc"
+styles: 
+  - style.mss
+  - roads.mss
+  - cities.mss
+  - geo.mss
+  - POIs.mss
+template: ''

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Map[]>
+<Map srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over" font-directory="fonts/">
+
+<Parameters>
+  <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
+  <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
+  <Parameter name="center">38.3862,8.3637,7</Parameter>
+  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="maxzoom">22</Parameter>
+  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="source"><![CDATA[mapbox:///duncangraham.f38239b3,duncangraham.54c72d71,duncangraham.9cb2f4cc,duncangraham.83c4f511,duncangraham.d1be701a,mapbox.mapbox-streets-v5,mapbox.mapbox-terrain-v1,duncangraham.b12adadc]]></Parameter>
+</Parameters>
+
+
+<Style name="ne_110m_ocean" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#4085f8" gamma="0.6" />
+    <PolygonPatternSymbolizer file="img/wave6.png" />
+  </Rule>
+</Style>
+<Layer name="ne_110m_ocean"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>ne_110m_ocean</StyleName>  </Layer>
+
+<Style name="ne_110m_land" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <PolygonSymbolizer fill="#4cdc47" />
+    <LinePatternSymbolizer file="img/coast.png" offset="-3" smooth="0.2" />
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <PolygonSymbolizer fill="#4cdc47" />
+    <LinePatternSymbolizer file="img/coast.png" offset="-3" />
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <PolygonSymbolizer fill="#4cdc47" />
+    <LinePatternSymbolizer file="img/coast-small.png" smooth="0.2" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl18" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,18)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl17" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,17)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl16" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,16)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl15" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,15)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl14" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,14)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl13" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,13)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl12" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,12)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl11" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,11)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl10" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,10)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl9" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,9)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl8" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,8)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl7" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,7)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl6" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,6)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl5" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,5)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl4" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,4)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl3" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" geometry-transform="translate(0,3)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl2" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer geometry-transform="translate(0,2)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl1" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer geometry-transform="translate(0,1)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl19" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#000000" geometry-transform="translate(0,19)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl20" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#000000" geometry-transform="translate(0,20)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl21" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d8c8a8" geometry-transform="translate(0,21)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff/lvl22" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#4cdc47" geometry-transform="translate(0,22)" />
+  </Rule>
+</Style>
+<Style name="ne_110m_land-cliff" filter-mode="first">
+  <Rule>
+    <PolygonSymbolizer fill="#d89860" />
+    <LineSymbolizer stroke="#d89860" />
+  </Rule>
+</Style>
+<Layer name="ne_110m_land"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>ne_110m_land-cliff</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl22</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl21</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl20</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl19</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl1</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl2</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl3</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl4</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl5</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl6</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl7</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl8</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl9</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl10</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl11</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl12</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl13</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl14</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl15</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl16</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl17</StyleName>
+    <StyleName>ne_110m_land-cliff/lvl18</StyleName>
+    <StyleName>ne_110m_land</StyleName>  </Layer>
+
+<Style name="ne_10m_geography_regions_polys-mtns" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <Filter>([featurecla] = 'Desert')</Filter>
+    <ShieldSymbolizer size="20" face-name="Super Mario World Regular" file="img/mtn.png" transform="scale(0.25,0.25)" placement="line" minimum-distance="10" minimum-padding="20" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+</Style>
+<Style name="ne_10m_geography_regions_polys" filter-mode="first">
+  <Rule>
+    <Filter>([featurecla] = 'Desert')</Filter>
+    <PolygonSymbolizer fill="#d8c8a8" />
+  </Rule>
+</Style>
+<Layer name="ne_10m_geography_regions_polys"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>ne_10m_geography_regions_polys</StyleName>
+    <StyleName>ne_10m_geography_regions_polys-mtns</StyleName>  </Layer>
+
+<Style name="ne_110m_lakes" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <PolygonSymbolizer fill="#4085f8" smooth="0.2" />
+    <LinePatternSymbolizer file="img/lake.png" smooth="0.5" />
+  </Rule>
+</Style>
+<Layer name="ne_110m_lakes"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>ne_110m_lakes</StyleName>  </Layer>
+
+<Layer name="road"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+      </Layer>
+
+<Style name="mpoi" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <Filter>([type] = 'ghost')</Filter>
+    <ShieldSymbolizer file="img/ghost.png" face-name="Super Mario 256 Regular" size="14" fill="#ff0000" transform="scale(0.25,0.25)" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([type] = 'everest')</Filter>
+    <ShieldSymbolizer size="7" face-name="Super Mario World Regular" halo-fill="#ffffff" halo-radius="1" wrap-width="10" file="img/everest.png" unlock-image="false" transform="scale(0.25,0.25)" placement="interior" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([type] = 'shipwreck')</Filter>
+    <ShieldSymbolizer file="img/capsize.png" face-name="Super Mario 256 Regular" size="14" fill="#ff0000" allow-overlap="true" transform="scale(0.35,0.35)" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+</Style>
+<Layer name="mpoi"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>mpoi</StyleName>  </Layer>
+
+<Style name="place_label" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = 6)</Filter>
+    <ShieldSymbolizer size="7" face-name="Super Mario World Regular" file="img/city4.png" unlock-image="false" transform="scale(0.25,0.25)" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] = 7)</Filter>
+    <ShieldSymbolizer size="7" face-name="Super Mario World Regular" file="img/city4.png" unlock-image="false" transform="scale(0.25,0.25)" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = 3)</Filter>
+    <ShieldSymbolizer size="7" face-name="Super Mario World Regular" file="img/city5.png" unlock-image="false" transform="scale(0.25,0.25)" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = 4)</Filter>
+    <ShieldSymbolizer size="7" face-name="Super Mario World Regular" file="img/city5.png" unlock-image="false" transform="scale(0.25,0.25)" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([scalerank] = 2)</Filter>
+    <ShieldSymbolizer size="7" face-name="Super Mario World Regular" halo-fill="#ffffff" halo-radius="1" wrap-width="10" file="img/city2.png" unlock-image="false" transform="scale(0.25,0.25)" avoid-edges="true" shield-dy="-15" dy="15" placement="line" margin="60" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>750000</MaxScaleDenominator>
+    <Filter>([scalerank] = 0)</Filter>
+    <ShieldSymbolizer margin="50" file="img/city4.png" size="7" face-name="Super Mario World Regular" halo-fill="#ffffff" halo-radius="1" wrap-width="10" unlock-image="false" transform="scale(0.25,0.25)" shield-dy="-25" dy="10" placement="interior" ><![CDATA[]]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <MinScaleDenominator>750000</MinScaleDenominator>
+    <Filter>([scalerank] = 0)</Filter>
+    <ShieldSymbolizer size="7" face-name="Super Mario World Regular" halo-fill="#ffffff" halo-radius="1" wrap-width="10" file="img/city1.png" unlock-image="false" transform="scale(0.25,0.25)" shield-dy="-25" dy="10" placement="interior" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([scalerank] = 1)</Filter>
+    <ShieldSymbolizer size="7" face-name="Super Mario World Regular" halo-fill="#ffffff" halo-radius="1" wrap-width="10" file="img/city2.png" unlock-image="false" transform="scale(0.25,0.25)" avoid-edges="true" shield-dy="-15" dy="15" placement="line" margin="60" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+  </Rule>
+</Style>
+<Layer name="place_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>place_label</StyleName>  </Layer>
+
+<Style name="hillshade" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <Filter>([class] = 'medium_shadow')</Filter>
+    <ShieldSymbolizer size="20" face-name="Super Mario World Regular" file="img/hill3.png" transform="scale(0.25,0.25)" placement="line" minimum-distance="50" minimum-padding="10" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <Filter>([class] = 'full_highlight')</Filter>
+    <ShieldSymbolizer size="20" face-name="Super Mario World Regular" file="img/pipe.png" transform="scale(0.25,0.25)" placement="line" minimum-distance="12" minimum-padding="10" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'medium_highlight')</Filter>
+    <ShieldSymbolizer size="20" face-name="Super Mario World Regular" file="img/land1.png" transform="scale(0.4,0.4)" placement="line" minimum-distance="20" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+  <Rule>
+    <Filter>([class] = 'full_shadow')</Filter>
+    <ShieldSymbolizer size="20" face-name="Super Mario World Regular" file="img/hill1.png" transform="scale(0.25,0.25)" placement="line" minimum-distance="0" minimum-padding="3" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+</Style>
+<Layer name="hillshade"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>hillshade</StyleName>  </Layer>
+
+<Style name="landcover" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <Filter>([class] = 'wood')</Filter>
+    <ShieldSymbolizer size="20" face-name="Super Mario World Regular" file="img/tree.png" transform="scale(0.25,0.25)" placement="line" minimum-distance="30" minimum-padding="10" ><![CDATA['']]></ShieldSymbolizer>
+  </Rule>
+</Style>
+<Layer name="landcover"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>landcover</StyleName>  </Layer>
+
+<Style name="marine_label" filter-mode="first">
+  <Rule>
+    <ShieldSymbolizer size="7" text-transform="uppercase" face-name="Super Mario World Regular" fill="#ffffff" halo-fill="#4085f8" halo-radius="2" wrap-width="20" file="img/empty.png" unlock-image="false" transform="scale(0.25,0.25)" avoid-edges="true" allow-overlap="true" ><![CDATA[[name_en]]]></ShieldSymbolizer>
+  </Rule>
+</Style>
+<Layer name="marine_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>marine_label</StyleName>  </Layer>
+
+<Style name="country_label" filter-mode="first">
+  <Rule>
+    <MaxScaleDenominator>6500000</MaxScaleDenominator>
+    <Filter>([scalerank] &gt; 3)</Filter>
+    <TextSymbolizer size="15" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <MinScaleDenominator>6500000</MinScaleDenominator>
+    <Filter>([scalerank] &gt; 3)</Filter>
+    <TextSymbolizer size="12" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] &gt; 3)</Filter>
+    <TextSymbolizer size="7" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <Filter>([scalerank] = 1)</Filter>
+    <TextSymbolizer size="15" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([scalerank] = 1)</Filter>
+    <TextSymbolizer size="12" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <Filter>([scalerank] = 2)</Filter>
+    <TextSymbolizer size="15" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>50000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([scalerank] = 2)</Filter>
+    <TextSymbolizer size="12" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>50000000</MinScaleDenominator>
+    <Filter>([scalerank] = 2)</Filter>
+    <TextSymbolizer size="7" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>12500000</MaxScaleDenominator>
+    <Filter>([scalerank] = 3)</Filter>
+    <TextSymbolizer size="15" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>25000000</MaxScaleDenominator>
+    <MinScaleDenominator>12500000</MinScaleDenominator>
+    <Filter>([scalerank] = 3)</Filter>
+    <TextSymbolizer size="12" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <MinScaleDenominator>25000000</MinScaleDenominator>
+    <Filter>([scalerank] = 3)</Filter>
+    <TextSymbolizer size="7" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+  <Rule>
+    <MaxScaleDenominator>100000000</MaxScaleDenominator>
+    <TextSymbolizer size="7" face-name="Super Mario 256 Regular" fill="#ffffff" halo-fill="#000000" halo-radius="2" wrap-width="30" minimum-distance="2" avoid-edges="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+  </Rule>
+</Style>
+<Layer name="country_label"
+  srs="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over">
+    <StyleName>country_label</StyleName>  </Layer>
+
+</Map>
